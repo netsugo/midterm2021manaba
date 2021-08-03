@@ -24,7 +24,6 @@ function onCsParsed(payload) {
         [0, 3, 6].forEach(j => {
             const td = tds[j];
             const array = searchArray(payload, td.innerHTML);
-            console.log(array);
             if (array.length > 0) {
                 td.innerHTML = array.join("<br>");
             }

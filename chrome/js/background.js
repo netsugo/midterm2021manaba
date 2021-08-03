@@ -53,7 +53,6 @@ function requestOnCsParsed(payload) {
         }
     })
     chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-        console.log(`bg: receive message ${message.method}`);
         switch (message.method) {
             case "createTab":
                 createTab();

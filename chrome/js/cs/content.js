@@ -21,7 +21,6 @@ function csParse() {
 
 (() => {
     chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-        console.log(`content cs listen: ${message.method}`)
         switch (message.method) {
             case "csParse":
                 const parsed = csParse();

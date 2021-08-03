@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Midterm Highlight for Manaba",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "permissions": [
         "tabs",
         "https://www.cs.tsukuba.ac.jp/lecture/midterm/local/21_data/index.html"
